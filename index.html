@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Hosto</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        HOSTO </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="resources/pexels-valeria-boltneva-827516.jpg" class="d-block w-100 c-img" alt="Slide 1">
+
+      </div>
+      <div class="carousel-item c-item">
+        <img src="resources/pexels-patrycja-niebielska-19461053.jpg" class="d-block w-100 c-img" alt="Slide 2">
+
+      </div>
+      <div class="carousel-item c-item">
+        <img src="resources/pexels-teejay-1362534.jpg" class="d-block w-100 c-img" alt="Slide 3">
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<div class="container">
+  <div class="row mt-3">
+    <div class="col-sm-3 col-md-4">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <i class="bi bi-cake2" style="font-size: 24px; color: rgb(111, 159, 200);"></i>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Products</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-md-4">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <i class="bi bi-cake2" style="font-size: 24px; color: rgb(111, 159, 200);"></i>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Cake Class</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-md-4">
+      <div class="card text-center">
+        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+          <i class="bi bi-cake2" style="font-size: 24px; color: rgb(111, 159, 200);"></i>
+
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Recipes</h5>
+          <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container d-flex justify-content-center my-4">
+
+  <h3 class=" d-inline text-dark">
+      Hosto Planing & Pricing
+  </h3>
+ 
+</div>
+
+
+<div class="container">
+  <div class="row">
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3  card">
+          <div class="card-header  w-100">
+              <h5 class="card-title text-white text-center">Card title</h5>
+
+          </div>
+
+          <img src="resources/card4.jpg" class="card-img-top" alt="...">
+
+
+          <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-footer  text-center">
+              <h5 class="card-title text-white">Card Footer</h5>
+
+          </div>
+
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3  card">
+          <div class="card-header  w-100">
+              <h5 class="card-title text-white text-center">Card title</h5>
+
+          </div>
+
+          <img src="resources/card4.jpg" class="card-img-top" alt="...">
+
+
+          <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-footer text-center">
+              <h5 class="card-title text-white">Card Footer</h5>
+
+          </div>
+
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3  card">
+          <div class="card-header  w-100">
+              <h5 class="card-title text-white text-center">Card title</h5>
+
+          </div>
+
+          <img src="resources/card4.jpg" class="card-img-top" alt="...">
+
+
+          <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-footer  text-center">
+              <h5 class="card-title text-white">Card Footer</h5>
+
+          </div>
+
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3  card">
+          <div class="card-header  w-100 " >
+              <h5 class="card-title text-white text-center">Card title</h5>
+
+          </div>
+
+          <img src="resources/card4.jpg" class="card-img-top" alt="...">
+
+
+          <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-footer  text-center">
+              <h5 class="card-title text-white">Card Footer</h5>
+
+          </div>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="container d-flex justify-content-center my-4">
+
+  <h3 class=" d-inline text-dark">
+      Key features of Hosto
+  </h3>
+  
+</div>
+
+<div class="container mb-5">
+  <div class="row">
+      <div class="col-12  col-md-6 col-lg-4  card ">
+          <div class="card-header bg-white w-100 d-flex justify-content-between">
+              <h5 class="card-title text-dark mt-4 d-inline">Feature1</h5>
+
+          </div>
+
+          <div class="card-body">
+              <div class="row">
+                  <div class="col">
+                    <p class="d-inline align-self-baseline">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   </p>
+
+                   <p class="mt-4">Aspernatur incidunt laboriosam </p>
+                  </div>
+                  <div class="col align-self-end">
+                      <img src="resources/feature1.jpg" class="card-img d-inline" alt="...">
+
+                  </div>
+              </div>
+
+
+          </div>
+
+      </div>
+
+      <div class="col-12  col-md-6 col-lg-4  card ">
+          <div class="card-header bg-white w-100 d-flex justify-content-between">
+              <h5 class="card-title text-dark mt-4 d-inline">Feature2</h5>
+
+          </div>
+
+          <div class="card-body">
+              <div class="row">
+                  <div class="col">
+                    <p class="d-inline align-self-baseline">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   </p>
+
+                   <p class="mt-4">Aspernatur incidunt laboriosam </p>
+                  </div>
+                  <div class="col align-self-end">
+                      <img src="resources/feature2.jpg" class="card-img d-inline" alt="...">
+
+                  </div>
+              </div>
+
+
+          </div>
+
+      </div>
+      <div class="col-12  col-md-6 col-lg-4  card ">
+          <div class="card-header bg-white w-100 d-flex justify-content-between">
+              <h5 class="card-title text-dark mt-4 d-inline">Feature3</h5>
+
+          </div>
+
+          <div class="card-body">
+              <div class="row">
+                  <div class="col">
+                    <p class="d-inline align-self-baseline">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   </p>
+
+                   <p class="mt-4">Aspernatur incidunt laboriosam </p>
+                  </div>
+                  <div class="col align-self-end">
+                      <img src="resources/feature3.jpg" class="card-img d-inline" alt="...">
+
+                  </div>
+              </div>
+
+
+          </div>
+
+      </div>
+
+      <div class="col-12  col-md-6 col-lg-4  card ">
+          <div class="card-header bg-white w-100 d-flex justify-content-between">
+              <h5 class="card-title text-dark mt-4 d-inline">Feature4</h5>
+
+          </div>
+
+          <div class="card-body">
+              <div class="row">
+                  <div class="col">
+                    <p class="d-inline align-self-baseline">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   </p>
+
+                   <p class="mt-4">Aspernatur incidunt laboriosam </p>
+                  </div>
+                  <div class="col align-self-end">
+                      <img src="resources/feature4.jpg" class="card-img d-inline" alt="...">
+
+                  </div>
+              </div>
+
+
+          </div>
+
+      </div>
+      <div class="col-12  col-md-6 col-lg-4  card ">
+          <div class="card-header bg-white w-100 d-flex justify-content-between">
+              <h5 class="card-title text-dark mt-4 d-inline">Feature5</h5>
+
+          </div>
+
+          <div class="card-body">
+              <div class="row">
+                  <div class="col">
+                    <p class="d-inline align-self-baseline">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                   </p>
+
+                   <p class="mt-4">Aspernatur incidunt laboriosam </p>
+                  </div>
+                  <div class="col align-self-end">
+                      <img src="resources/feature5.jpg" class="card-img d-inline" alt="...">
+
+                  </div>
+              </div>
+
+
+          </div>
+
+      </div>
+      <div class="col-12  col-md-6 col-lg-4  card ">
+        <div class="card-header bg-white w-100 d-flex justify-content-between">
+            <h5 class="card-title text-dark mt-4 d-inline">Feature6</h5>
+
+        </div>
+
+        <div class="card-body">
+            <div class="row">
+                <div class="col">
+                    <p class="d-inline align-self-baseline">
+                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+
+                    <p class="mt-4">Aspernatur incidunt laboriosam </p>
+                </div>
+                <div class="col align-self-end">
+                    <img src="resources/feature6.jpg" class="card-img d-inline" alt="...">
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+   
+     
+              </div>
+
+
+          </div>
+
+          <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-lg-4">
+                  <div class="info mb-5">
+                    <img src="imgs/logo.png" alt="" class="mb-4" />
+                    <p class="mb-5">
+                      Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+                      convallis at tellus.
+                    </p>
+                    <div class="copyright">
+                      Created By <span>Hosto</span>
+                      <div>&copy; 2023 - <span>Company Inc</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                  <div class="links">
+                    <h5 class="text-light">Links</h5>
+                    <ul class="list-unstyled lh-lg">
+                      <li>Home</li>
+                      <li>Our Services</li>
+                      <li>Portfolio</li>
+                      <li>Testimonials</li>
+                      <li>Support</li>
+                      <li>Terms and Condition</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                  <div class="links">
+                    <h5 class="text-light">About Us</h5>
+                    <ul class="list-unstyled lh-lg">
+                      <li>Sign In</li>
+                      <li>Register</li>
+                      <li>About Us</li>
+                      <li>Blog</li>
+                      <li>Contact Us</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="contact">
+                    <h5 class="text-light">Contact Us</h5>
+                    <p class="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
+                    <ul class="d-flex mt-5 list-unstyled gap-3">
+                     
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="bi bi-twitter fa-lg twitter rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="bi bi-linkedin fa-lg linkedin rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a class="d-block text-light" href="#"
+                          ><i class="bi bi-youtube fa-lg youtube rounded-circle p-2"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+</body>
+
+</html>
